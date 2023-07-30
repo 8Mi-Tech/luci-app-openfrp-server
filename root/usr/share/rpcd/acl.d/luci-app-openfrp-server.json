@@ -1,0 +1,15 @@
+{
+	"luci-app-openfrp-server": {
+		"description": "OpenFrp Backend Server For OpenWRT / iStoreOS",
+		"read": {
+			"uci": [
+				"openfrp-server"
+			]
+		},
+		"write": {
+			"uci": [
+				"openfrp-server"
+			]
+		}
+	}
+}

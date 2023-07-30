@@ -1,0 +1,23 @@
+{
+	"admin/services/openfrp-server": {
+		"title": "OpenFrp Server",
+		"action": [
+			{
+				"type": "cbi",
+				"path": "openfrp-server",
+				"post": {
+					"cbi.submit": true
+				}
+			},
+			{
+				"type": "view",
+				"path": "openfrp-server"
+			}
+		],
+		"depends": {
+			"acl": [
+				"luci-app-openfrp-server"
+			]
+		}
+	}
+}

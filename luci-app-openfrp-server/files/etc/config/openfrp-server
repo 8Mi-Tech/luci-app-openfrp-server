@@ -1,2 +1,0 @@
-config openfrp-server
-        option enabled '1'
